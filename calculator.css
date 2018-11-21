@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'vcr';
+	src: url('VCR.ttf');
+}
+
+table {
+	width: 500px;
+	margin: 50px auto;
+	height: 400px;
+	
+	text-align: center;
+	
+}
+
+.heading { 
+	text-align: center;
+	color: powderblue;
+	font-size: 36px;
+	font-family: vcr;
+}
+
+input[type=button]{
+	height: 30px;
+	width:  100px;
+	margin: 5px;
+	color: gray;
+	background: #5aebad;
+	font-family: vcr;
+	font-size: 16px;
+	border-right-color: lightgray;
+	border-bottom-color: lightgray;
+	border-left-color: white;
+	border-top-color: white;
+	border-width: 3px;
+}
+
+input[type=text]{
+	height: 70px;
+	width:  230px;
+	margin: 2px;
+	color: gray;
+	background: #5aebad;
+	font-family: vcr;
+	font-size: 24px;
+	border-right-color: lightgray;
+	border-bottom-color: lightgray;
+	border-left-color: white;
+	border-top-color: white;
+	border-width: 3px;
+	font-size: 1.5vw;
+
+}
+
+body {
+	background-image: url("calcback2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
